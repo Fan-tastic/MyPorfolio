@@ -1,0 +1,96 @@
+body {
+    background:url(../images/TRIMET3.jpg);
+}
+
+#x,#y{
+    background-color:#E0E0E0;
+}
+#map {
+    position:absolute;
+    left:0px;
+    top:144px;
+    opacity: 0.9;
+}
+
+.imageAnimation1{
+    position:absolute;
+    left:432px;
+    top:6px;
+ animation-name: imgAnimation;
+animation: imgAnimation 2s alternate infinite;
+-webkit-animation: imgAnimation 2s alternate infinite;
+}
+@-webkit-keyframes imgAnimation{
+0%{ left: -198px}
+100%{ left: 50%;}
+}
+@-webkit-keyframes imgAnimation{
+0%{ opacity: 0}
+50%{ opacity: 0.5}
+100%{ opacity: 1}
+}
+
+.imageAnimation2{
+    position:absolute;
+    left:624px;
+    top:6px;
+animation-name: imgAnimation;
+animation: imgAnimation 2s alternate infinite;
+-webkit-animation: imgAnimation 2s alternate infinite;
+}
+@-webkit-keyframes imgAnimation{
+0%{ left: -198px}
+100%{ left: 50%;}
+}
+@-webkit-keyframes imgAnimation{
+0%{ opacity: 0}
+50%{ opacity: 0.5}
+100%{ opacity: 1}
+}
+
+#ShowR {
+    position:absolute;
+    left:813px;
+    top:94px;
+    opacity: 0.8;
+}
+
+.ArrivalDetail
+{
+    position:absolute;
+    left:812px;
+    top:3px;
+    opacity: 0.8;
+}
+table{
+    background-color:#E0E0E0;
+}
+
+
+    input#Submit {
+        display: inline-block;
+        zoom: 1;
+        *display: inline;
+        vertical-align: baseline;
+        margin: 0 2px;
+        outline: none;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        font: 14px/100% Arial, Helvetica, sans-serif;
+        padding: .5em 2em .55em;
+        text-shadow: 0 1px 1px rgba(0,0,0,.3);
+        -webkit-border-radius: .5em;
+        -moz-border-radius: .5em;
+        border-radius: .5em;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+        -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+        box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    }
+    #Submit:hover {
+        text-decoration: none;
+    }
+    #Submit:active {
+        position: relative;
+        top: 1px;
+    }

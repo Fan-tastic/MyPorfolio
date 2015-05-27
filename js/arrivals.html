@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>Transit Arrivalz</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+   
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script> 
+    <link rel="stylesheet" href="stylesheets/fan.css">
+</head>
+<body>
+    <img src="images/TRIMET1.jpeg" style="width:173px;height:120px;" class="imageAnimation1">
+    <img src="images/TRIMET2.jpg" style="width:173px;height:120px;" class="imageAnimation2">
+    <div style="border:1px solid #F60"></div>
+<div style="border:1px solid #F60"></div>
+<input type="text" id="SStopID" placeholder="Please Input Stop ID" autocomplete="on">
+<input type="submit" id="Submit" value="Show Arrivals">
+<input type="submit" id="ShowRoutes" value="Show All Routes" />
+<div>
+    <p id="x"></p>
+    <p id="y"></p>
+    <table border="3" class = "ArrivalDetail">
+        <tr>
+            <td id="stopID"></td>
+            <td id="stopName"></td>
+        </tr>
+        <tr>
+            <td id="fullSign1"></td>
+            <td id="scheduled1"></td>
+        </tr>
+        <tr>
+            <td id="fullSign2"></td>
+            <td id="scheduled2"></td>
+        </tr>
+    </table>
+</div>
+<table id = "ShowR" border="3">
+</table>
+</body>
+<script language="JavaScript" src="js/fan.js"></script>
+<body onload="init()"> 
+<div id="map" style="width: 800px; height: 600px"></div> 
+</body>  
+
+</html>
+
