@@ -1,4 +1,4 @@
-$(document).ready(function(){
+//$(document).ready(function(){
 		
 $('.photo_slider').each(function(){
 	
@@ -79,4 +79,4 @@ $('.photo_slider').each(function(){
 	
 });
 
-});
+//});
